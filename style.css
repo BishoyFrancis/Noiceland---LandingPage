@@ -1,0 +1,208 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tenor+Sans&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#navbarFont{
+    font-size: 14px;
+}
+
+
+.navbar-brand span{
+    margin-left: 10px;
+    /* font-size: 14px; */
+}
+
+.navbar-nav > li{
+    padding-left: 15px;
+}
+
+.navbar-nav > li > a{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+.headerSection{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+.headerSection a{
+    color: #999 !important;
+    font-size: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.headerparag{
+    padding-top: 10px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.lightparag{
+    font-family: 'Source Serif Pro', sans-serif;
+    font-size: 0.97rem;
+    color: #666;
+    font-weight: 400;
+}
+
+.headerSection span{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:black !important ;
+    font-feature-settings: "liga" on;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+}
+
+.Cards{
+    margin-bottom: 20px;
+}
+
+.Cards a{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #999 !important;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+}
+
+.Cards h3{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.Cards p{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+}
+
+.latest--button{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.latest--button a{
+    font-size: 10px;
+    color:#000;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid #000;
+    background-color: #fff;
+    width: 180px;
+    margin: 60px auto 90px auto;
+}
+
+.latest--button a:hover{
+    background-color: #000;
+    color: #fff !important;
+}
+
+.footer-logo sub{
+    margin-left: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #666;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.items a{
+    color: #fff !important;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.items div{
+    padding-right: 50px;
+}
+
+.subs a:first-child{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #999 !important;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text-field{
+    height: 48px;
+    margin-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #999;
+    font-size: 14px;
+    line-height: 24px;
+    width: 66.2%;
+}
+
+
+.submit-button{
+    width: 100px;
+    height: 48px;
+    background-color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.w-button{
+    display: inline-block;
+    padding: 19px 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
